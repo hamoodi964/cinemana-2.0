@@ -110,7 +110,7 @@ object-fit:fill;
     width: 100%;
 }
 
-@media (max-width:800px) {
+@media (max-width:1250px) {
     .boteta{
         display: flex;
     }
