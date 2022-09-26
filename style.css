@@ -1,0 +1,134 @@
+body{
+    background-color: #131416;
+}
+
+
+.btn-outline-light{
+
+    border-color: transparent;
+    
+}
+.navbar{
+   
+   position: sticky;
+   top:0px;
+   z-index: 99;
+   
+}
+.logo{
+    height: 60px;
+    width: 200px;
+}
+p{
+    z-index: 98;
+    color: white;
+}
+
+.m{
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    position: absolute;
+}
+.l1{
+    width: 200px;
+    height: 3px;
+    background-color: white;
+   
+}
+.bohaha{
+    height: 300px;
+    width: 100%;
+    
+}
+img{
+height: 100%;
+width: 100%;
+object-fit:fill;
+    
+    
+}
+.movmov{
+    margin-top: 120px;
+    height: 400px;
+    width: 100%;
+}
+.s{
+    color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+    position: absolute;
+}
+.l2{
+    width: 200px;
+    height: 3px;
+    background-color: white;
+}
+.boteta{
+    display: flex;
+}
+.hi{
+    display: block;
+    margin-right: 0;
+    flex: 0 0 0 0 calc(100%/5);
+}
+.srsr{
+    margin-top: 130px;
+    height: 400px;
+    width: 100%;
+}
+.horr{
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    position: absolute;
+}
+.l3{
+    width: 200px;
+    height: 3px;
+    background-color: white;
+}
+.hrr{
+    margin-top: 120px;
+    height: 400px;
+    width: 100%;
+}
+.arb{
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    position: absolute;
+}
+.l4{
+    width: 200px;
+    height: 3px;
+    background-color: white
+}
+.arab{
+    margin-top: 120px;
+    height: 400px;
+    width: 100%;
+}
+
+@media (max-width:600px) {
+    .boteta{
+        display: flex;
+    }
+    .hi{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    }
+.arab{
+    margin-top: 200px;
+}
+.hrr{
+    margin-top: 200px;
+}
+.srsr{
+    margin-top: 200px;
+}
+.movmov{
+    margin-top: 200px;
+}
+}
