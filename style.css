@@ -19,10 +19,16 @@ body{
     height: 60px;
     width: 200px;
 }
-p{
-    z-index: 98;
-    color: white;
+.navbar-toggler{
+    background-color: white;
+    box-shadow: none;
+    
 }
+.navbar-toggler:focus{
+
+box-shadow: none;
+}
+
 
 .m{
     color: white;
