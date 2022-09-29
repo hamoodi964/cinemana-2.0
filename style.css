@@ -116,7 +116,7 @@ object-fit:fill;
     width: 100%;
 }
 
-@media (max-width:800px) {
+@media only screen and (max-width:1250px) {
     .boteta{
         display: flex;
     }
@@ -136,5 +136,18 @@ object-fit:fill;
 }
 .movmov{
     margin-top: 200px;
+}
+.m{
+    position: relative;
+    
+}
+.s{
+    position: relative;
+}
+.horr{
+    position: relative;
+}
+.arb{
+    position: relative;
 }
 }
